@@ -29,7 +29,7 @@
         android:drawableStart="@android:drawable/ic_menu_search"/>
 
     <!-- House Image Card -->
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_margin="16dp"
@@ -43,7 +43,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/house_main"/>
 
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <!-- Property Info -->
     <TextView
