@@ -10,11 +10,12 @@
 /.idea/misc.xml
 /.idea/compiler.xml
 /.idea/AndroidProjectSystem.xml
-/.idea/deploymentTargetSelector.xml.xml
-/.idea/gradle.xml.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/gradle.xml
 /.idea/runConfigurations.xml
-/.idea/studiobot.xml.xml
-/.idea/vcs.xml.xml
+/.idea/deviceManager.xml
+/.idea/studiobot.xml
+/.idea/vcs.xml
 .DS_Store
 /build
 /captures
