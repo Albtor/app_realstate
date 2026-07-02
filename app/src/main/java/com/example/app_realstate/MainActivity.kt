@@ -16,5 +16,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PropertyPageActivity::class.java)
             startActivity(intent)
         }
+
+        val userIcon = findViewById<ImageView>(R.id.imgUser)
+        userIcon.setOnClickListener {
+
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }
