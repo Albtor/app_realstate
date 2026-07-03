@@ -24,5 +24,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        val logo = findViewById<ImageView>(R.id.imgLogo)
+        logo.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+
+            startActivity(intent)
+        }
     }
 }
