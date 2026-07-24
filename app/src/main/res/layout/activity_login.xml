@@ -71,6 +71,22 @@
         android:layout_marginTop="30dp"
         android:backgroundTint="#673AB7"/>
 
+
+
+    <!-- Forgot Password -->
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password?"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:focusable="true"/>
+
     <!-- Register -->
 
     <TextView
